@@ -1,29 +1,29 @@
-//Èı´óÑ­»·Ö®forÑ­»·
+//ä¸‰å¤§å¾ªç¯ä¹‹forå¾ªç¯
 public class ForDemo 
 {
 	public static void main(String[] args) 
 	{
-		//°¸Àı£º½ĞÒ»°ÙÉùË§¸ç
+		//æ¡ˆä¾‹ï¼šå«100å£°å¸…å“¥
 		
 		for (int i = 1;i <= 100 ;i++ )
 		{
-			//System.out.println("Ë§¸ç"+i);
+			//System.out.println("å¸…å“¥"+i);
 		}
 		
-		//°¸Àı£º´ÓÒ»Êıµ½Ò»°Ù
-		for (int i = 1;i <= 100 ;i++ )//i¶¨Òå£¬ºÍÉÏÃæµÄ²»ÖØ¸´£¬
+		//æ¡ˆä¾‹ï¼šä»ä¸€æ•°åˆ°ä¸€ç™¾
+		for (int i = 1;i <= 100 ;i++ )//iå®šä¹‰ï¼Œå’Œä¸Šé¢çš„ä¸é‡å¤ï¼Œ
 		{
 			//System.out.println(i);
 		}
-		//°¸Àı£º°ï´óÊ¥½â¾öÎÊÌâ1+¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£100µÄºÍ
+		//æ¡ˆä¾‹ï¼šå¸®å¤§åœ£è§£å†³é—®é¢˜1+ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚100çš„å’Œ
 		int sum = 0;
-		for (int i = 1;i <= 100 ;i++ )//i¶¨Òå£¬ºÍÉÏÃæµÄ²»ÖØ¸´£¬
+		for (int i = 1;i <= 100 ;i++ )//iå®šä¹‰ï¼Œå’Œä¸Šé¢çš„ä¸é‡å¤ï¼Œ
 		{
 			sum += i;
 
 		}
-			System.out.println("1+++....=100Îª£º"+sum);
-			//System.out.println(i);  ÕÒ²»µ½i£ºËûÖ»ÔÚ»¨À¨ºÅÀïÓĞÒâÒå
+			System.out.println("1+++....=100ä¸ºï¼š"+sum);
+			//System.out.println(i);  æ‰¾ä¸åˆ°iï¼šä»–åªåœ¨èŠ±æ‹¬å·é‡Œæœ‰æ„ä¹‰
 
 		/*
 			for (System.out.println("Hello World!"); ;System.out.println("Hello World!") )
@@ -32,6 +32,6 @@ public class ForDemo
 			}
 		*/
 
-		//forÑ­»·×ª»¯whlieÑ­»·
+		//forå¾ªç¯è½¬åŒ–whlieå¾ªç¯
 	}
 }
